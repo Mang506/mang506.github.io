@@ -23,7 +23,7 @@ var tl = new TimelineMax();
 // Current static bubble classes count
 const bubbleCount = 11;
 
-for(var i = 0; i <= bubbleCount; i++){
+for(var i = 0; i < bubbleCount; i++){
 
   var t = TweenMax.to(select('.bubble' + i), randomBetween(1, 1.5), {
     x: randomBetween(12, 15) * (randomBetween(-1, 1)),
