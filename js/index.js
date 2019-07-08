@@ -31,10 +31,10 @@ for(var i = 0; i < bubbleCount; i++){
     repeat:-1,
     repeatDelay:randomBetween(0.2, 0.5),
     yoyo:true,
-    ease:Elastic.easeOut.config(1, 0.5)
+    ease:Elastic.easeOut.config(1, 0.5),    
   })
 
   tl.add(t, (i+1)/0.6)
 }
 
-tl.seek(50);
+tl.seek(2);

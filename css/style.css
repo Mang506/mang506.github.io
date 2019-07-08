@@ -194,7 +194,21 @@ a {
   left: 0;
 }
 .profile .st0, .profile .st1 {
-  fill: #2D5D80;
+  fill: #66C010;
+  -webkit-animation: fillfade 1s;  /* Safari 4.0 - 8.0 */
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+  animation: fillfade 1s;
+  animation-fill-mode: forwards;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fillfade {
+  /* from {fill: #002145} */
+  to {fill: #002145}
+}
+
+@keyframes fillfade {
+  to {fill: #002145}
 }
 
 .experience {
